@@ -24,6 +24,7 @@ function Resume() {
           <li>Pandas, NumPy</li>
         </ul>
         
+        <p>This section does not work when deployed to netlify but works otherwise</p>
         <div className= "resume-container" >
             <embed src="./src/assets/compsciResume.pdf" type="application/pdf" />
         </div>
