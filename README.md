@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This is a portfolio website showcasing my projects. It includes various web applications I've developed.
+This is a portfolio website showcasing my projects. It includes an about me section, my skills, web applications I've developed, my resume, and my contact information.
 
 ## Features
 - Displays a list of projects with descriptions and images
@@ -9,7 +9,7 @@ This is a portfolio website showcasing my projects. It includes various web appl
 ## Technologies Used
 - **React**: Component-based UI development
 - **CSS**: Styling and layout
-- **JavaScript **: Logic and interactivity
+- **JavaScript**: Logic and interactivity
 
 ## Installation
 To run the project locally, follow these steps:
@@ -21,7 +21,7 @@ To run the project locally, follow these steps:
 
 2. Navigate to the project directory:
    ```sh
-   cd <to the folder it downloaded as>
+   cd React-Portfolio
    ```
 
 3. Install dependencies:
@@ -38,16 +38,9 @@ To run the project locally, follow these steps:
 Use the navigation bar to check out the different sections of the website.
 
 ## Future Improvements
-- Correct the image layout
+- Update with mobile optimization
 
 ## License
 This project is open-source and available under the [MIT License](LICENSE).
 
-## React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
