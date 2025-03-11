@@ -5,18 +5,21 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
+import Index from './pages/Index';
+import './assets/custom.ttf';
+
 
 function App() {
   return (
     <Router>
       <Header />
+      
       <main>
-        <Routes>
-          <Route path="/" element={<About />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/resume" element={<Resume />} />
-        </Routes>
+        <Index />
+        <About />
+        <Portfolio />
+        <Resume />
+        <Contact />
       </main>
       <Footer />
     </Router>
