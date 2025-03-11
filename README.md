@@ -31,7 +31,7 @@ To run the project locally, follow these steps:
 
 4. Start the development server:
    ```sh
-   npm start
+   npm run dev
    ```
 
 ## How It Works
