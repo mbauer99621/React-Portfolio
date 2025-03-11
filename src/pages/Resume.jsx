@@ -1,16 +1,18 @@
-import resume from "../assets/resume.jpg";
+import resume from "../assets/MayaLiBauerSoftwareDevResume.pdf";
 
 function Resume() {
   return (
     <section id="resume">
       <h2>Resume</h2>
-      <a href={resume} target="_blank" rel="noopener noreferrer">
-        Download Resume
-      </a>
-      <div className="resume-image-container">
-        <img src={resume} alt="Resume Image" />
+      <div className="iframe-wrapper">
+        <iframe
+          src={resume}
+          className="resume-iframe"
+          title="Resume"
+        />
       </div>
     </section>
+    
   );
 }
 
