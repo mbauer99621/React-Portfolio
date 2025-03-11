@@ -40,6 +40,10 @@ Use the navigation bar to check out the different sections of the website.
 ## Future Improvements
 - Update with mobile optimization
 
+## Acknowledgements 
+- Custom font (https://www.fontspace.com/geocache-elegant-font-f91578)
+- Purple Flower Image (https://www.freepik.com/author/asrulaqroni)
+
 ## License
 This project is open-source and available under the [MIT License](LICENSE).
 
