@@ -6,6 +6,7 @@ import library from "../assets/library.jpg";
 import yahtzee from "../assets/yahtzee.jpg";
 import chronobyte from "../assets/chronobyte.jpg";
 import readme from "../assets/readme.jpg";
+import bookSearch from "../assets/bookSearch.png";
 
 
 
@@ -26,6 +27,13 @@ function Portfolio() {
       img: myHealth,
       github: "",
       deployed: "",
+    },
+    {
+      title: "Book Search",
+      description: "A Book Search Engine that allows users to search for books using the Google Books API. ",
+      img: bookSearch,
+      github: "https://github.com/mbauer99621/Book-Search-Engine",
+      deployed: "https://book-search-engine-mlb.onrender.com",
     },
     {
       title: "Cooking and Recipe Website",
@@ -71,6 +79,7 @@ function Portfolio() {
       github: "",
       deployed: "",
     },
+   
     
   ];
 
