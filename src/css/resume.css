@@ -1,0 +1,32 @@
+/*-----------------------------RESUME-----------------------------*/
+
+#resume h2 {
+    text-align: center;
+  }
+  
+  
+  .iframe-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .resume-iframe {
+    width: 80%; 
+    height: 700px; 
+    border: 3px solid var(--secondary);
+    
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .resume-iframe {
+      width: 95%; /* Make it take more space on smaller screens */
+      height: 500px; /* Reduce height on mobile */
+    }
+  }
+  
+  /*-----------------------------END RESUME-----------------------------*/
+  
+  

@@ -1,0 +1,85 @@
+
+/*-----------------------------HEADER-----------------------------*/
+.header {
+    background: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures spacing between elements */
+    padding: 20px;
+  }
+  
+  
+  
+  .left-header {
+    gap:10px;
+    justify-content: space-between;
+  }
+  
+  #logo p { 
+    font-size: 80px;
+    color: white;
+  }
+  
+  .headerA, .headerA:hover{
+    text-decoration: none;
+    color: inherit;
+    font-family: CustomFont;
+    padding-top: 25px;
+  
+  
+  }
+  
+  /*-----------------------------END HEADER-----------------------------*/
+  
+  /*-----------------------------NAV BAR-----------------------------*/
+  .nav-bar-container {
+    padding: 500px;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    padding-top: 20px;
+    margin: 0;
+  }
+  
+  .nav-links li {
+    margin: 0 1.5rem;
+    
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+    
+  }
+  
+  .nav-link:hover {
+    color: var(--secondary);
+    transform: scale(1.1);
+  }
+  
+  /* Mobile-specific adjustments */
+  @media (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-links li {
+      margin: 0.5rem 0;
+    }
+  }
+  
+  /*-----------------------------END NAV BAR-----------------------------*/
+  

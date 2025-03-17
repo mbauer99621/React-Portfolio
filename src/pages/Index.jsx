@@ -1,3 +1,6 @@
+import '../css/index.css';
+
+
 function Index() {
   // Scroll to section when clicking on the button
   const scrollToContact = () => {

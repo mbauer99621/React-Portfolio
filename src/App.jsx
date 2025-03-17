@@ -6,6 +6,7 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Index from './pages/Index';
+import Skills from './components/Skills';
 import './assets/custom.ttf';
 
 
@@ -19,6 +20,7 @@ function App() {
         <About />
         <Portfolio />
         <Resume />
+        <Skills />
         <Contact />
       </main>
       <Footer />

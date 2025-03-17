@@ -1,0 +1,117 @@
+/*-----------------------------CONTACT-----------------------------*/
+
+/* Contact Page Styles */
+#contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #F3ECF2;
+  flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+}
+
+.contact-form {
+  width: 50%;
+  padding-right: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  background-color: var(--secondary);
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-info {
+  width: 40%;
+}
+
+.contact-info h3 {
+  margin-bottom: 10px;
+}
+
+.contact-info a {
+  color: #1E90FF;
+  text-decoration: none;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.blue-link {
+  color: #1E90FF; 
+  text-decoration: none;
+}
+
+.blue-link:hover {
+  color: #0D74B1; 
+  text-decoration: underline;
+}
+
+.blue-input {
+  border: 1px solid var(--secondary);
+  color: var(--secondary);
+}
+
+.blue-input:focus {
+  border-color: var(--secondary); 
+  outline: none;
+}
+
+.blue-input::placeholder {
+  color: var(--secondary); 
+}
+
+#contact-btn {
+  color: var(--secondary);
+  transition: transform 0.2s ease-in-out, border 0.2s ease-in-out; 
+  outline: none;
+  border: 2px solid var(--secondary);
+}
+
+#contact-btn:hover {
+  transform: scale(1.1);
+}
+
+#contact-btn:focus {
+  border: 2px solid var(--secondary); 
+  outline: none; 
+}
+
+/* Media Query for Mobile View */
+@media (max-width: 768px) {
+  #contact-container {
+    flex-direction: column; /* Stacks the form and contact info vertically */
+    align-items: center; /* Centers the items */
+    padding: 20px; /* Adjusts padding for smaller screens */
+  }
+
+  .contact-form,
+  .contact-info {
+    width: 100%; /* Takes up full width */
+    margin-bottom: 20px; /* Adds space between the sections */
+  }
+
+  .contact-form {
+    padding-right: 0; /* Removes right padding for mobile */
+  }
+
+  #contact-btn {
+    width: 100%; /* Makes the button full width on mobile */
+    padding: 12px; /* Adjusts button padding */
+  }
+}
+
+/*-----------------------------END CONTACT-----------------------------*/

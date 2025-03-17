@@ -2,6 +2,7 @@ import emailIcon from "../assets/mailIcon.svg";
 import phoneIcon from "../assets/phoneIcon.svg";
 import githubIcon from "../assets/githubIcon.svg"; 
 import linkedinIcon from "../assets/linkedInIcon.svg"; 
+import '../css/footer.css';
 
 function Footer() {
   return (

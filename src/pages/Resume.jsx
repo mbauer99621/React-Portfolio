@@ -1,4 +1,7 @@
 import resume from "../assets/MayaLiBauerSoftwareDevResume.pdf";
+import '../css/resume.css';
+
+
 
 function Resume() {
   return (

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import '../css/header.css';
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);

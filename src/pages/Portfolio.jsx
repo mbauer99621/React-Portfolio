@@ -1,4 +1,8 @@
 import React from "react";
+import '../css/portfolio.css';
+
+
+
 import inProgress from "../assets/inprogress.jpg";
 import myHealth from "../assets/myhealth.jpg";
 import starWars from "../assets/starwars.jpg";

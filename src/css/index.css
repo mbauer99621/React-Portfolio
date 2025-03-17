@@ -1,0 +1,56 @@
+
+/*-----------------------------INDEX-----------------------------*/
+#index-container {
+    background-image: url('../assets/flower.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative; 
+    color: white; 
+    padding: 20px;
+  }
+  
+  #index-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    background: linear-gradient(to top, white, transparent)};
+  
+  
+  #index-container h1, #index-container h2 {
+    position: relative;
+    z-index: 1;
+  }
+  
+  #index-container h1 {
+    font-size: 60px;
+    margin-bottom: 10px; 
+  }
+  
+  /* Style for "Hi, I'm" */
+  #greeting {
+    color: var(--primary); 
+  }
+  
+  /* Style for "Maya Li Bauer." */
+  #name {
+    color: var(--secondary); 
+  }
+  #index-container h2 {
+    font-size: 30px;
+    margin-top: 0; 
+    color: var(--primary)
+  }
+  
+  
+  /*-----------------------------END INDEX-----------------------------*/
+  
