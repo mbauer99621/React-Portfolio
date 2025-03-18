@@ -75,6 +75,7 @@ function Skills() {
   ];
 
   return (
+   
     <div id="skills">
       {skillCategories.map((category, index) => (
         <div key={index} className="skill-category">
