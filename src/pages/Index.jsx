@@ -16,7 +16,7 @@ function Index() {
   return (
     <section id="index-container">
       <h1><span id="greeting">Hi, I'm</span> <span id="name">Maya Li Bauer.</span></h1>
-      <h2>Full Stack Software Engineer</h2>
+      <h2>Full Stack Software Developer</h2>
       
       <button id="contact-btn" onClick={scrollToContact}>Contact Me</button> 
       
